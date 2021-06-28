@@ -1,0 +1,123 @@
+*{
+    margin-top: 5px;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+.container{
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-gap: 2px;
+       
+}
+
+.header{
+    display: flex;
+    grid-column: span 3;
+    background-color: #00b7eb;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    grid-template-columns: auto;
+   
+}
+    
+.leftPage{
+    background-color: #696f77;
+    height: 510px;
+    color: rgb(53, 209, 39);
+    display: inline-block;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: left;
+    }
+
+.leftPage a{
+    color:  #35e609;
+    text-decoration: none;
+    font-weight: 700 ;
+    line-height: 5px;
+    margin-left: 15px;
+    }
+.leftPage a:hover{
+    color:rgb(14, 238, 227);
+    border-bottom: 4px solid rgb(211, 22, 22);
+}
+.mainPage{
+   background-image:url("images/paper.gif");
+    height: 510px;
+}
+.mainPage p{
+    line-height: 25px;
+    color: #000000;
+    font-size: 18px;
+    padding-left: 25px;
+    
+}
+.mainPage h2{
+    padding-left: 5px;
+    color:#0f2dd6;
+}
+.mainPage h1{
+    padding-left: 5px;
+    color:#ce5d28;
+}
+.rightPage h2{
+    padding-top: 8px;
+}
+    .rightPage{
+    background-color: #696f77;
+     height: 510px;
+ }
+ .rightPage .aboutAuthor{
+color:#00ffaa;
+padding-left: 10px;
+font-weight:600;
+ }
+ .rightPage .quote{
+     padding-top:20px;
+     padding-left: 10px;
+     color:white;
+     font-weight: 800;
+ }
+ .rightPage .apj{
+     padding-left:105px;
+     color:#00ffaa;
+     font-weight:600;
+ }
+ .rightPage h2{
+     text-align: center;
+     color: white;
+ }
+ .rightPage img{
+    width: 150px;
+    padding-left: 60px;
+ }
+ .footer{
+    grid-column: span 3;
+    background-color: rgb(32, 43, 204);
+    height: 80px;
+   }
+ .leftPage hr{
+     height: 5px;
+     background-color:white;
+ }
+.leftPage p{
+     color: white;
+     padding: 4px;
+     font-weight: bold;
+     margin-left: 5px;
+ }
+.footer{
+    text-align:center;
+}
+.footer h3{
+    padding-top: 10px;
+    margin: 0;
+    color: violet;
+}
+.privacy{
+    color:white
+}
