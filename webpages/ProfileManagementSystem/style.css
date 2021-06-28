@@ -1,0 +1,65 @@
+body  {
+    background-image: url('cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+
+.loginForm {
+    border: 5Px  solid rgb(43, 255, 0);
+    margin-top: 100px;
+    margin-left: 550px;
+    height: 500px;
+    width: 450px;
+}
+
+.avatar{
+    height: 140px;
+    width: 140px;
+    margin-left: 180Px;
+    padding : 10px;
+}
+input[type=text], input[type=password]{
+    width: 400px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 30Px;
+    padding: 3px;
+    margin-left:20px;
+    color: purple;
+   border-radius: 5px;
+   border: none;
+}
+
+input[type=submit] {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+
+}
+
+input[type=submit]:hover {
+    cursor:Pointer;
+    color:red;
+
+}
+
+h1{
+    color:rgb(44, 41, 216);
+    text-align: center;
+ }
+
+ p{
+    color:rgb(44, 41, 216);
+    font-size: 20px;
+    font-weight: bold;
+
+ }
+
+ hr{
+    border-color: indigo;
+
+ }
