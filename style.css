@@ -1,7 +1,7 @@
 *{
     margin-top: 5px;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
      }
 .container{
     display:grid;
@@ -13,7 +13,8 @@
 .header{
     display: flex;
     grid-column: span 3;
-    background-color: #00b7eb;
+    /* background-color: linear-gradient(red blue) ; */
+    background-image: linear-gradient(rgb(80, 173, 34), rgb(37, 37, 121));
     height: 80px;
     justify-content: center;
     align-items: center;
@@ -21,6 +22,7 @@
     font-weight: 700;
     font-size: 50px;
     grid-template-columns: auto;
+    font-family: "Berkshire Swash", "Kaushan Script", sans-serif;
    
 }
     
@@ -50,7 +52,7 @@
     height: 510px;
 }
 .mainPage p{
-    line-height: 25px;
+    line-height: 20px;
     color: #000000;
     font-size: 18px;
     padding-left: 25px;
@@ -73,19 +75,22 @@
  }
  .rightPage .aboutAuthor{
 color:#00ffaa;
-padding-left: 10px;
+padding: 0px 15px;
 font-weight:600;
+text-align: justify;
  }
  .rightPage .quote{
      padding-top:20px;
      padding-left: 10px;
      color:white;
      font-weight: 800;
+     text-align:center;
  }
  .rightPage .apj{
-     padding-left:105px;
      color:#00ffaa;
      font-weight:600;
+     text-align: right;
+     padding-right: 10px;
  }
  .rightPage h2{
      text-align: center;
