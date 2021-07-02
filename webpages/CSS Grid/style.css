@@ -1,0 +1,33 @@
+.parent {
+    display: grid;
+    grid-template-columns: 2fr 5fr 1fr;
+    grid-gap: 5px;
+    grid-template-rows: 60px 40px 100px 400px 80px;
+    
+}
+.child {
+background-color: #656969;
+color: white;
+font-size: 30px;
+text-align: center;
+justify-content: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.one {
+    grid-column: span 3;
+}
+.two {
+    grid-column: span 3;
+}
+.three {
+    grid-column: span 3;
+}
+.five {
+    grid-column: span 2;
+}
+.six {
+    grid-column: span 3;
+}
