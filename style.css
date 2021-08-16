@@ -50,6 +50,8 @@
 .mainPage{
    background-image:url("images/paper.gif");
     height: 510px;
+    overflow: auto;
+    
 }
 .mainPage p{
     line-height: 20px;

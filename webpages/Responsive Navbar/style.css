@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: montserrat;
+    background-image: url("backgroundimage.jpg");
+    background-repeat: no-repeat;
+    
+}
+nav {
+    background-color: dodgerblue;
+    height: 80px;
+    width: 100%;
+    /* position: fixed;
+    top: 0px; */
+}
+label.logo  {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    }
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+a:hover, a.active{
+    background-color: #80beee;
+    transition: .5s;
+    cursor: pointer;
+    caret-color: red;
+}
+.checkBtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+div {
+    Margin: 100px;
+    text-align: justify;
+    /* padding: 100px 0 ; */
+}
+h1{
+    color:tomato;
+    padding: 20px 0 ;
+    
+}
+P {
+    color:  rgb(54, 15, 161);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+}
+.pageUpButton {
+    width: 80px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgba(46, 194, 199,0.3);
+    position: fixed;
+    right: 20px;
+    top: 650px;
+    border-radius: 10px;
+
+}

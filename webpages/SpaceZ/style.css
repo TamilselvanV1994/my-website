@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Ubuntu&display=swap');
+body {
+    font-family: 'ubuntu' , sans-serif ;
+}
+#title {
+    background-image: url("resource/Image/Img1.jpg");
+    background-size: cover;
+    color: #FFD523;
+    padding: 0 20% 25%;
+}
+
+.links {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 60vh;
+}
+
+.links li {
+    list-style: none;
+    margin: auto;
+    font-weight: 500;
+    
+}
+
+.links li:hover {
+    color: #28FFBF;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+   
+}
+#title p{
+    font-size: 1.3rem;
+}
+.button {
+    background-color: purple;
+    border: 1px solid;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: auto;
+        
+}
+.button:hover {
+    background-color: #FFD523;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Welcome Section */
+ #welcome {
+     display: flex;
+     flex-direction: row;
+     margin: 0 5rem;
+     background-color: #fff;
+     height: 60vh;
+     
+     }
+ .Welcome-section{
+     display: flex;
+     justify-content: space-between;
+     height: 50vh;
+    }
+
+.Welcome-box p {
+    font-size: 20px;
+}
+#welcome span {
+    color: purple;
+    font-size: 4rem;
+}
+.welcomeheader {
+        margin: 2rem 5rem;
+}
+
+/* Project Section */
+
+.cards{
+    display: flex;
+    background: rgb(233, 226, 226);
+    line-height: 1.5rem;
+    
+}
+
+.projcard img {
+    height: 350px;
+    width: 375px;
+}
+
+.projcard:hover{
+    background: rgb(90, 177, 133);
+}
+
+.projcard span{
+    padding-left: 20px;
+}
+
+.projcard h3{
+    padding-left: 20px;
+}
+.projcard p{
+    padding-left: 20px;
+}
+.buttonspan{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Pricing Table Section */
+
+.pricing{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 25px;
+}
+
+.pricing-table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 50px ;
+}
+
+.price{
+    padding-right: 10px;
+    padding-left: 5%;
+    }
+
+    /* Video Project Section */
+
+#div1{
+    border-right:6px solid gray;
+    padding-right: 50px;
+}
+
+.videoProjects{
+    text-align: center;
+    color: white;
+    background: rgb(121, 39, 153);
+    
+
+}
+
+.videos{
+    display: flex;
+    overflow: hidden;
+}
+
+.video{
+    padding: 20px;
+}
+.videoProjects h1{
+    padding-top: 60px;
+}
+
+/* SpaceZ Team Section */
+
+.team{
+    text-align: center;
+   }
+
+.teamMembers{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.teamMembers img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100px ;
+}
+
+.team1{
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.middle img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+} 
+ 
+/* Life in SpaceZ */
+
+
+.column {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  
+  
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+      .container {
+    position: relative;
+      }
+  #expandedImg {
+      width: 70%;
+      padding-left: 08%;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+     
+  }
+  .row {
+      padding-left: 25%;
+      background-color: rgba(41, 53, 41, 0);
+      
+  }
+  #lifeinspacez {
+      background-color: rgb(53, 156, 216);
+  }
+
+  /* News Letter Start */
+
+.newsletter {
+    min-height: 15vh;
+    width: 100%;
+    background-image: url("Resource/Image/BackG1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.row1 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.newsletter input {
+    padding: 5px;
+    border: 1px solid #1574b3;
+    line-height: 2rem;
+    width: 250px;
+    
+}
+
+.newsletter .inputemail {
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.newsletter input:focus {
+    outline: none;
+}
+
+/* Blog Start */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    margin: 0 25%;
+}
+.blog-img img {
+    width: 40%;
+    height: 10rem;
+    padding: 50px;
+}
+
+.blog-body  {
+    width: 200px;
+    padding: 0 50px;
+}
+
+/* Contect Section */
+
+.end{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    background: rgb(233, 230, 58);
+    margin-top: 60px;
+
+}
+
+.end img{
+    height: 450px;
+    width: 500px;
+}
+
+.entry{
+    padding-left: 150px;
+}
+.entry p {
+    font-size: 20px;
+}
+.others {
+    width: 250px;
+    height: 18px;
+}
+.message {
+    width: 250px;
+    height: 50px;
+}
+
+.entry .button {
+    width: 100px;
+}
+
+/* Footer Section*/
+
+.endfooter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: rgb(104, 119, 80);
+    color: white;
+}
+.endcards {
+    width: 20%;
+    text-align: center;
+    padding: 10px 100px;
+}
+
+.endcards p {
+    margin-bottom: 10px;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.logos img {
+    padding: 5px 5px;
+    width: 50px;
+    height: 40px;
+    
+}
+
+.logos:hover {
+    cursor: pointer;
+}
+#footer {
+    background-color: green;
+}
