@@ -1,0 +1,66 @@
+.card{
+  padding: 10px 20px;
+  margin: 20px;
+}
+.App{
+  font-family: 'Space Grotesk', sans-serif;
+
+  }
+#ButtonDiv{
+  padding: 15px;
+  
+}
+button{
+  padding: 5px 20px;
+  border-radius: 20px !important;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 700;
+}
+button:hover {
+  background-color: coral;
+}
+
+body {
+  background-color: #1A1A2E;
+}
+
+.card-group {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  align-items: center;
+  }
+
+.card {
+  border: 4px solid brown;
+
+}
+
+.card:hover {
+  background-color: coral;
+  cursor: pointer;
+  transform: scale(1.2);
+  
+}
+
+.heading-text {
+ display: inline-block;
+ font-size: 25px;
+ font-weight: 700;
+ color: #E94560;
+
+  
+}
+#ButtonDiv {
+  display: inline-block;
+  padding-left: 80rem;
+  
+}
+.heading {
+  background-color:#0F3460;
+}
+.card-body {
+  color: white;
+}
